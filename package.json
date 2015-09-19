@@ -1,0 +1,46 @@
+{
+  "name": "simplehttpserver",
+  "description": "Simple HTTP Server for static files",
+  "author": {
+    "name": "Teemu Ikonen",
+    "email": "teemu.ikonen@ıki.fi"
+  },
+  "version": "0.0.5",
+  "bin": {
+    "simplehttpserver": "./cli.js"
+  },
+  "engine": "node >= 0.10.0",
+  "dependencies": {
+    "send": "0.13.x",
+    "express": "4.13.x",
+    "async": "0.7.x",
+    "morgan": "1.6.x"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tikonen/blog/tree/master/simplehttpserver"
+  },
+  "_id": "simplehttpserver@0.0.5",
+  "scripts": {},
+  "_shasum": "0726a393da7f71b4218ace1d14fb05de3ba16514",
+  "_from": "simplehttpserver@*",
+  "_npmVersion": "2.1.4",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "tikonen",
+    "email": "teemu.ikonen@iki.fi"
+  },
+  "maintainers": [
+    {
+      "name": "tikonen",
+      "email": "teemu.ikonen@iki.fi"
+    }
+  ],
+  "dist": {
+    "shasum": "0726a393da7f71b4218ace1d14fb05de3ba16514",
+    "tarball": "http://registry.npmjs.org/simplehttpserver/-/simplehttpserver-0.0.5.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/simplehttpserver/-/simplehttpserver-0.0.5.tgz"
+}
