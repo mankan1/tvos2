@@ -9,6 +9,8 @@ var express = require('express'),
 
 var mainapp = express();
 
+mainapp.set('port', (process.env.PORT || 5000));
+
 // Bodyparser parses HTTP POST parameters and JSON payload
 //mainapp.use(bodyparser);
 
@@ -104,5 +106,8 @@ function directoryHTML( res, urldir, pathname, list ) {
 }
 
 // Fire up server
-mainapp.listen(8000);
-console.log('Listening port 8000 root dir ' + dir );
+mainapp.listen(mainapp.get('port'), function() {
+  console.log('Node app is running on port', mainapp.get('port'));
+});
+//mainapp.listen(8000);
+//console.log('Listening port 8000 root dir ' + dir );
